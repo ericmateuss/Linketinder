@@ -2,11 +2,13 @@ class Usuario{
     String nome
     String email
     String cep
+    String estado
 
-    Usuario(String nome, String email, String cep){
+    Usuario(String nome, String email, String cep, String estado){
         this.nome = nome
         this.email = email
         this.cep = cep
+        this.estado = estado
     }
 
     String getNome(){
@@ -26,6 +28,12 @@ class Usuario{
     }
     void setCep(String cep) {
         this.cep = cep
+    }
+    String getEstado(){
+        return estado
+    }
+    void setEstado(String estado){
+        this.estado = estado
     }
 }
 
