@@ -18,13 +18,13 @@ class Usuario{
         this.nome = nome
     }
     String getEmail(){
-        return nome
+        return email
     }
     void setEmail(String email) {
         this.email = email
     }
     String getCep(){
-        return nome
+        return cep
     }
     void setCep(String cep) {
         this.cep = cep
